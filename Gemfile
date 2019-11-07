@@ -58,5 +58,6 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
 
 gem 'portfolio_module_tool', git: "https://github.com/dylansalay/portfolio_module_tool"
