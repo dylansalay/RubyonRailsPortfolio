@@ -10,6 +10,7 @@ module ApplicationCable
       guest.last_name = "User"
       guest.email = "guest@user.com"
       guest
+    end
 
     def connect
       self.current_user = find_verified_user || guest_user
