@@ -5,11 +5,64 @@
     <hr>
         
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-5">
         <%=image_tag "profilepic.jpg", width: "100%", alt: "Profile Image", class: "profile-img" %>
       </div>
-      <div class="col-md-8 about-p">
-        <p>I am a Full-Stack Developer with a passion for collaboration, learning new technologies and using my analytical background to solve problems. Prior to transitioning to development, I spent four and a half years in Financial and Operations Analyst roles. Knowing that it would be applicable to my career, I began taking a Python course in my spare time. The class provided a great introduction to the world of coding and inspired me to pursue software development full time. When I'm not coding, I'm usually exercising, reading or exploring San Diego. Check out some of my work below!</p>
+      <div class="col-md-7 about-p">
+        <p>I am a Full-Stack Developer with a passion for collaboration, learning new technologies and using my analytical background to solve problems. Prior to transitioning to development, I spent four and a half years in Financial and Operations Analyst roles. Knowing that it would be applicable to my career, I began taking a Python course in my spare time. The class provided a great introduction to the world of coding and inspired me to pursue software development full time. When I'm not coding, I'm usually exercising, reading or exploring San Diego.</p>
+
+        <p>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-controler="jobHistory"
+          >
+            Job History
+          </button>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#education"
+            aria-expanded="false"
+            aria-controler="education"
+          >
+            Education
+          </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              <h3>Development Experience</h3>
+                <ul>
+                  <li> Notch8 | Jr. Software Developer | 2020 </li>
+                  <li> Notch8 | Software Development Intern | 2019 </li>
+                </ul>	
+            </div>
+            <div class="card card-block">
+              <h3>Prior Experience</h3>
+                <ul>
+                  <li> Verus Investments | Operations Anlayst | 2017-2019 </li>
+                  <li> Verus Investments | Financial Analyst  | 2015-2017 </li>
+                </ul>
+            </div>
+          </div>
+        </p>
+        <p>
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              <h3>Education</h3>
+                <ul>
+                  <li> LEARN Academy | Full Stack Web Developer in Training | 2019 </li>
+                  <li> Gonzaga University | BBA Finance & Economics | 2014 </li>
+                </ul>	
+            </div>
+          </div>
+        </p>
       </div>  
     </div>  
   </div>
