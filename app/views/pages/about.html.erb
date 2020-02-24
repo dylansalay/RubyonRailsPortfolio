@@ -7,7 +7,24 @@
     <div class="row">
       <div class="col-md-5">
         <%=image_tag "profilepic.jpg", width: "100%", alt: "Profile Image", class: "profile-img" %>
+        <div class="skills">
+          <% @skills.each do |skill| %>
+            <div class="skill">
+              <h4><%= skill.title %></h4>
+              <div class="progress">
+                <div 
+                  class="progress-bar progress-bar-striped bg-warning"
+                  role="progressbar"
+                  aria-valuenow="<%= skill.percent_utilized %>"
+                  aria-valuemax="100"
+                  style="width: <%= skill.percent_utilized %>%"  
+                ></div>
+              </div>
+            </div>
+          <% end %>
+        </div>
       </div>
+
       <div class="col-md-7 about-p">
         <p>I am a Full-Stack Developer with a passion for collaboration, learning new technologies and using my analytical background to solve problems. Prior to transitioning to development, I spent four and a half years in Financial and Operations Analyst roles. Knowing that it would be applicable to my career, I began taking a Python course in my spare time. The class provided a great introduction to the world of coding and inspired me to pursue software development full time. When I'm not coding, I'm usually exercising, reading or exploring San Diego.</p>
 
