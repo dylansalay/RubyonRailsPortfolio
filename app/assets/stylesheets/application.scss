@@ -77,7 +77,7 @@ h6, .h6 {
  */
 
 .masthead {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .masthead-brand {
@@ -135,6 +135,12 @@ h6, .h6 {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+  .inner {
+    padding: 10px;
+  }
+  p {
+    margin: 0;
+  }
 }
 
 
@@ -243,6 +249,14 @@ h6, .h6 {
 
 .tech-news > .card {
   padding: 30px;
+}
+
+.about-card {
+  transform: scale(0.65);
+}
+
+.contact-card {
+  transform: scale(0.90);
 }
 
 .app-card-container {
