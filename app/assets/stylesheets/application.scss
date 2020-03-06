@@ -78,6 +78,13 @@ h6, .h6 {
 
 .masthead {
   margin-bottom: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 75px;
+  // background-color: rgba(255,255,255,.05);
+  display: block;
 }
 
 .masthead-brand {
@@ -253,6 +260,8 @@ h6, .h6 {
 
 .about-card {
   transform: scale(0.65);
+  position: absolute;
+  top: -50px;
 }
 
 .contact-card {
