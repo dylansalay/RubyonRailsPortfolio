@@ -20,5 +20,7 @@
 //= require cable
 //= require activestorage
 //= require turbolinks
+//= require lib/typed
+//= require typed-implementation
 //= require_tree .
 //= require bootstrap-sprockets
