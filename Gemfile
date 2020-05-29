@@ -26,7 +26,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-
+gem "actionview", ">= 5.2.4.2"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.7', '>= 4.7.1'
@@ -49,4 +49,4 @@ gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'redcarpet', '~> 3.5'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 
-ruby "2.4.0"
+ruby "2.6.6"
